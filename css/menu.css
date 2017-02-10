@@ -1,0 +1,66 @@
+.hamburger{ 
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#005065;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+  font-family: 'Georgia', 'Georgia', 'Times New Roman', serif;
+}
+
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:5px 15px 0px 15px;
+  color:#005065;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.menu-small{
+  z-index:1000000; 
+  font-weight:bold; 
+  font-size:0.8em; 
+  width:100%; 
+  background:#fff;  
+  position:absolute; 
+  text-align:center;
+  font-family: 'Georgia', 'Georgia', 'Times New Roman', serif;
+}
+
+.menu-small ul {
+  margin: 0; 
+  padding: 0; 
+  list-style-type: none; 
+  list-style-image: none;
+  text-transform: uppercase;
+}
+
+.menu-small li {display: block;   padding:15px 0 15px 0; border-bottom:#CFCFCF 1px solid;}
+.menu-small li:hover{display: block;    background:#fff; padding:15px 0 15px 0; border-bottom:#CFCFCF 1px solid;}
+.menu-small ul li a { text-decoration:none;  margin: 0px; color: #005065;}
+.menu-small ul li a:hover {  color: #005065; text-decoration:none;}
+.menu-small a{text-decoration:none; color:#005065;}
+.menu-small a:hover{text-decoration:none; color:#005065;}
+
+.glyphicon-home{
+  color:white; 
+  font-size:1.5em; 
+  margin-top:5px; 
+  margin:0 auto;
+}
+/*end menu*/
